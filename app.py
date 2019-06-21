@@ -23,7 +23,7 @@ def login():
     '''
     guest = 'user' not in session
     if not guest:
-        return redirect(url_for('user'))
+        return redirect('/')
     return render_template('login.html', guest = guest)
 
 @app.route('/login_auth', methods = ['POST'])
@@ -57,23 +57,22 @@ def register_auth():
     username = request.form['username']
     password = request.form['password']
     retyped_pass = request.form['repass']
-    print(db.registered(username))
-    if username == "":
+    if username == "": # no username entered
         flash("Enter a username")
         return redirect(url_for('signup'))
-    if not db.registered(username):
+    if not db.registered(username): # username unavailable
         flash("Choose a different username")
         return redirect(url_for('signup'))
-    elif password == "":
+    elif password == "": # no password entered 
         flash("Enter a password")
         return redirect(url_for('signup'))
-    elif password != retyped_pass:
+    elif password != retyped_pass: # passwords don't match 
         flash("Passwords do not match")
         return redirect(url_for('signup'))
     else:
         if db.add_user(username, password):
             flash("You have successfully registered")
-        else:
+        else: 
             flash("This username is already in use")
             return redirect(url_for('signup'))
     db.auth_user(username, password)
