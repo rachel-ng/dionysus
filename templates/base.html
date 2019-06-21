@@ -65,7 +65,10 @@
 
         e.g.
         flash("Error: Invalid Location", category="location")
-
+        {% set loc_msgs = get_flashed_messages(category_filter=["location"]) %}
+        {% for msg in loc_msgs %}
+        <div class="alert-danger text-center" style="padding: 5px; margin-bottom: 20px; "><small>{{ msg }}</small></div>
+        {% endfor %}
       -->
     <div class ="container container-fluid center" id="errorBox">
       {% with msgs = get_flashed_messages(category_filter=["message"]) %}
