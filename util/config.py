@@ -15,8 +15,8 @@ def end_db(db):
     db.commit()
     db.close()
 
-def create_table():
+def create_table(table_name="user"):
     db, c = start_db()
-    command = "CREATE TABLE IF NOT EXISTS users(username TEXT, password TEXT, wins INT, losses INT)"
-    c.execute(command)
+    command = "CREATE TABLE IF NOT EXISTS ? (username TEXT, password TEXT)"
+    c.execute(command,(table_name,))
     end_db(db)
