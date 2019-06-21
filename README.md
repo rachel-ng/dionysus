@@ -3,6 +3,8 @@
 A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
 <sup>so i can live my best lazy life</sup>
 
+For a list of features, refer to [this](doc/features)
+
 ## How to Use
 
 ### requirements.txt
@@ -110,13 +112,16 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 - sqlite3  
 `sqlite3` is used for databases. A standard Python library with no further action required. 
 
+- random
+`random` is used to generate random numbers / letters / symbols. A standard Python library with no further action required. 
+
 - urllib  
 `urllib` is used to get JSON files from APIs. A standard Python library with no further action required. 
 
 - json  
 `json` is used to parse JSON files requested from APIs. A standard Python library with no further action required. 
 
-- [flask](http://flask.pocoo.org/)  
+- flask
 `flask` allows the app to be run on `localhost`, needs `wheel`. Installed with [requirements.txt](requirements.txt) 
 
     ```
@@ -130,7 +135,7 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
     (venv) $ pip3 install wheel
     ```
 
-- [Jinja2](http://jinja.pocoo.org/)  
+- Jinja2
 `Jinja2` is used for templating HTML pages. Installed with [requirements.txt](requirements.txt), installed when you install `flask`
 
 - passlib  
@@ -139,6 +144,3 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
     ```
     (venv) $ pip install passlib
     ```
-
-- python3 
-- [bootstrap](https://getbootstrap.com/)
