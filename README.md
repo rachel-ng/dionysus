@@ -1,21 +1,33 @@
 # flask_starter
 
-a super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)
-
+A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
+<sup>so i can live my best lazy life</sup>
 
 ## How to Use
 
 ### requirements.txt
 
-0. PRE-REQ: You need to be in your virtual environment ([venv](#venv)). Follow the [instructions below](#dependencies) if you need to
+0. PRE-REQ: You need to be in your virtual environment (venv).  
+<sup>Follow the [instructions below](#dependencies) if you don't have a virtual environment</sup>
 
-1. 
+1. In the root of your repo, run this: 
 
+    ```
+    (venv) $ pip freeze > requirements.txt
+    ```
+    
+    This takes a "snapshot" of all your python packages and versions installed within your virtual environment and lists them in your [requirements.txt](requirements.txt) and allows users to run your program on their own computer without worrying about compatibility issues. 
+    
+2. You can now use your requirements.txt by running the following command: 
+    ```
+    (venv) $ pip install -r requirements.txt
+    ```
 
 ### README.md
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 ## How to Run
 
@@ -71,7 +83,7 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 (venv) $ pip install -r requirements.txt
 ```
 
-- <t id="venv">venv</t>  
+- venv  
 `venv` is used to create an isolated environment for whatever version of Python (and whatever libraries you're installing) you're using to wreak havoc in. `venv` allows you to use different versions of Python so you don't need to worry about compatibility issues or somehow breaking your computer.  
 `venv` is a standard Python library in Python 3 with no further action required. Run the following to make a virtual environment if you do not already have one: 
 
@@ -94,6 +106,9 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 
 - os  
 `os` is used for miscellaneous operating system dependent functions. A standard Python library with no further action required.
+
+- sqlite3  
+`sqlite3` is used for databases. A standard Python library with no further action required. 
 
 - urllib  
 `urllib` is used to get JSON files from APIs. A standard Python library with no further action required. 
@@ -127,9 +142,9 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 
 - python3 
 - [bootstrap](https://getbootstrap.com/)
-- sqlite (dbs)
+
 
 ## to do
 - [x] make a requirements.txt
 - [ ] "instructions"
-- [ ] emulate the [best readme i've ever written](https://github.com/rachel-ng/group-d-etat)
+- [x] emulate the [best readme i've ever written](https://github.com/rachel-ng/group-d-etat)
