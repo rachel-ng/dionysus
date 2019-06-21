@@ -26,7 +26,6 @@ def auth_user(username, password):
     config.end_db(db)
     return False
 
-
 def registered(username):
     db, c = config.start_db()
     command = "SELECT * FROM users;"
