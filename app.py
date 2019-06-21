@@ -4,7 +4,6 @@ from flask import Flask, render_template, request, session, url_for, redirect, f
 from util import config, db
 
 app = Flask(__name__, static_url_path='/static')
-
 app.secret_key = os.urandom(32)
 
 config.create_table()
