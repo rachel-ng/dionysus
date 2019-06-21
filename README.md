@@ -142,9 +142,3 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 
 - python3 
 - [bootstrap](https://getbootstrap.com/)
-
-
-## to do
-- [x] make a requirements.txt
-- [ ] "instructions"
-- [x] emulate the [best readme i've ever written](https://github.com/rachel-ng/group-d-etat)
