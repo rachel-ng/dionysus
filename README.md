@@ -3,7 +3,7 @@
 A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
 <sup>so i can live my best lazy life</sup>
 
-For a list of features, refer to [this](#)
+For a list of features, refer to [this](#the-good-)
 
 ## How to Use
 
