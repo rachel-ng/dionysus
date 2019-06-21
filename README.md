@@ -3,9 +3,26 @@
 A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
 <sup>so i can live my best lazy life</sup>
 
-For a list of features, refer to [this](#the-good-)
+## Usage
 
-## How to Use
+### The Good $#!+
+- python3
+- [flask](http://flask.pocoo.org/)
+    - [flashing](http://flask.pocoo.org/docs/1.0/patterns/flashing/)  
+      categories  
+      &nbsp; &nbsp; e.g. `flash("Error: Invalid Location", category="location")`  
+      refer to [lines 62-86](https://github.com/rachel-ng/flask_starter/blob/master/templates/base.html#L62-L86) of [base.html](templates/base.html) for more details
+- [jinja2](http://jinja.pocoo.org/) (for templating)
+- [sqlite](https://docs.python.org/3.4/library/sqlite3.html) (DBs, for python functions see [config.py](util/config.py) and [db.py](util/db.py))  
+    [config.py](util/config.py) uses `os` for absolute paths  
+    <sup>so it doesn't go to absolute hell when you try to make it compatible with apache or something smh 😒</sup>  
+    `config.create_table()` has an optional parameter for the table name, defaults to `user`
+- accounts
+    - stored in [data.db](data/data.db)
+    - [db.py](util/db.py): functions for account creation and authentication
+    - login, signup, logout (via sessions, POST)
+    - password hashing (via `passlib`, uses `sha256_crypt`)
+- [bootstrap](https://getbootstrap.com/)
 
 ### requirements.txt
 
@@ -144,18 +161,3 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
     ```
     (venv) $ pip install passlib
     ```
-
-## The Good $#!+
-- python3
-- [flask](http://flask.pocoo.org/) (routing, flashing, all that good stuff)
-- [jinja2](http://jinja.pocoo.org/) (templating)
-- [sqlite](https://docs.python.org/3.4/library/sqlite3.html) (DBs, for python functions see [config.py](util/config.py) and [db.py](util/db.py))  
-    [config.py](util/config.py) uses `os` for absolute paths  
-    <sup>so it doesn't go to absolute hell when you try to make it compatible with apache or something smh 😒</sup>  
-    `config.create_table()` has an optional parameter for the table name, defaults to `user`
-- accounts
-    - stored in [data.db](data/data.db)
-    - [db.py](util/db.py): functions for account creation and authentication
-    - login, signup, logout (via sessions)
-    - password hashing (via `passlib`, uses `sha256_crypt`)
-- [bootstrap](https://getbootstrap.com/)
