@@ -5,14 +5,14 @@ from util import config
 
 config.create_table()
 
-def add_user(username, password, wins=0, losses=0):
+def add_user(username, password):
     db, c = config.start_db()
     data = c.execute("SELECT * FROM users;")
     for row in data:
         if username == row[1]:
             return False
-    command = "INSERT INTO users(username,password,wins,losses)VALUES(?,?,?,?);"
-    c.execute(command,(username,sha256_crypt.hash(password),wins,losses))
+    command = "INSERT INTO users (username,password) VALUES (?,?);"
+    c.execute(command,(username,sha256_crypt.hash(password)))
     config.end_db(db)
     return True
 
