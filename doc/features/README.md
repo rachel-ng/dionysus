@@ -1,4 +1,4 @@
-## The Good $#!+
+# The Good $#!+
 - python3
 - [flask](http://flask.pocoo.org/) (routing, flashing, all that good stuff)
 - [jinja2](http://jinja.pocoo.org/) (templating)
