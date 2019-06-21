@@ -8,10 +8,9 @@ A super basic flask starter kit made based off my work from my [softdev2 final p
 ### The Good $#!+
 - python3
 - [flask](http://flask.pocoo.org/)
-    - [flashing](http://flask.pocoo.org/docs/1.0/patterns/flashing/)  
-      categories  
-      &nbsp; &nbsp; e.g. `flash("Error: Invalid Location", category="location")`  
-      refer to [lines 62-86](https://github.com/rachel-ng/flask_starter/blob/master/templates/base.html#L62-L86) of [base.html](templates/base.html) for more details
+    - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
+      e.g. `flash("Error: Invalid Location", category="location")`  
+      <sub>Refer to [lines 62-86](https://github.com/rachel-ng/flask_starter/blob/master/templates/base.html#L62-L86) of [base.html](templates/base.html) for more details</sub>
 - [jinja2](http://jinja.pocoo.org/) (for templating)
 - [sqlite](https://docs.python.org/3.4/library/sqlite3.html) (DBs, for python functions see [config.py](util/config.py) and [db.py](util/db.py))  
     [config.py](util/config.py) uses `os` for absolute paths  
