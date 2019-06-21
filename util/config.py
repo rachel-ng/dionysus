@@ -1,9 +1,11 @@
 import os, sqlite3
 
+# abs paths
 CUR_DIR = os.path.dirname(__file__)  # abs path current directory
 ROOT_DIR = os.path.join(CUR_DIR, os.path.pardir)  # root directory
-DATA_DIR = os.path.join(ROOT_DIR, 'data')  # data directory
 
+# files 
+DATA_DIR = os.path.join(ROOT_DIR, 'data')  # data directory
 DB_FILE = os.path.join(DATA_DIR, 'data.db')  # db file
 
 def start_db():
