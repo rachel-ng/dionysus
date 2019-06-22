@@ -54,8 +54,6 @@ For a full list of features, refer to [the above](#the-good-)
 
 ### requirements.txt
 
-if you forget a lot (like me!)
-
 0. PRE-REQ: You need to be in your virtual environment (venv).  
 <sup>Follow the [instructions here](sample.md#dependencies) if you don't have a virtual environment</sup>
 
@@ -74,8 +72,6 @@ if you forget a lot (like me!)
 
 
 ### README.md
-
-if you are The Big Lazy™ (like me!)
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
