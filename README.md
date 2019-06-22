@@ -1,46 +1,11 @@
 # flask_starter
 
-A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
-<sup>so i can live my best lazy life</sup>
-
-## Usage
-
-Get the files somehow (fork, download, clone repo and move files, idk it's up to you) and alter them to your choosing. 
-
-### Important Files
-
-For a full list of features, refer to [this](#the-good-)
-
-- sample [README.md](sample.md)
-- `util/config.py` contains functions for configuring your database  
-    you may choose to change the [directory](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L8) your database is in ( `data/` ) and/or the [db file's name](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L9) ( `data/data.db` )
-- `util/db.py` contains functions for account creation and authentication
+a super basic flask starter kit made based off work from my [softdev2 final project (catatonic cereal)](https://github.com/tfabiha/ccereal/) and the readme.md from my [softdev1 final project (ambrosia)](https://github.com/rachel-ng/group-d-etat)  
+<sup>so i can live my best life</sup>
 
 
-### requirements.txt
+## Features (aka The Good $#!+™)
 
-0. PRE-REQ: You need to be in your virtual environment (venv).  
-<sup>Follow the [instructions below](#dependencies) if you don't have a virtual environment</sup>
-
-1. In the root of your repo, run this: 
-
-    ```
-    (venv) $ pip freeze > requirements.txt
-    ```
-    
-    This takes a "snapshot" of all your python packages and versions installed within your virtual environment and lists them in your [requirements.txt](requirements.txt) and allows users to run your program on their own computer without worrying about compatibility issues. 
-    
-2. You can now use your requirements.txt by running the following command: 
-    ```
-    (venv) $ pip install -r requirements.txt
-    ```
-
-### README.md
-
-- [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
-- [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## The Good $#!+
 - python3
 - [flask](http://flask.pocoo.org/)
     - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
@@ -69,3 +34,45 @@ For a full list of features, refer to [this](#the-good-)
     
     <script src="{{ url_for('static', filename='js/my.js') }}"></script>
     ```
+
+
+## Usage
+
+attain the files somehow (fork, download, clone repo and move files, idk it's up to you) and alter them to your choosing
+
+### Important Files
+
+For a full list of features, refer to [the above](#the-good-)
+
+- sample [README.md](sample.md)
+- `util/config.py` contains functions for configuring your database  
+    you may choose to change the [directory](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L8) your database is in ( `data/` ) and/or the [db file's name](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L9) ( `data/data.db` )
+- `util/db.py` contains functions for account creation and authentication
+- `templates/base.html` the og jinja base html
+
+### requirements.txt
+
+if you forget a lot (like me!)
+
+0. PRE-REQ: You need to be in your virtual environment (venv).  
+<sup>Follow the [instructions here](sample.md#dependencies) if you don't have a virtual environment</sup>
+
+1. In the root of your repo, run this: 
+
+    ```
+    (venv) $ pip freeze > requirements.txt
+    ```
+    
+    This takes a "snapshot" of all your python packages and versions installed within your virtual environment and lists them in your [requirements.txt](requirements.txt) and allows users to run your program on their own computer without worrying about compatibility issues. 
+    
+2. You can now use your requirements.txt by running the following command: 
+    ```
+    (venv) $ pip install -r requirements.txt
+    ```
+
+### README.md
+
+if you are The Big Lazy™ (like me!)
+
+- [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
+- [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
