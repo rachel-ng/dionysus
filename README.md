@@ -7,6 +7,8 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 ## Features (aka *The Good $#!+™*)
 
 - python3, html, css, etc. 
+- [.gitignore](.gitignore)  
+    also a [gist](https://gist.github.com/rachel-ng/7e26de56cb4a6370164213bd33c31f54)
 - [flask](http://flask.pocoo.org/)
     - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
       e.g. `flash("Error: Invalid Location", category="location")`  
