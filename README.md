@@ -22,6 +22,16 @@ A super basic flask starter kit made based off my work from my [softdev2 final p
     - login, signup, logout (via sessions, POST)
     - password hashing (via `passlib`, uses `sha256_crypt`)
 - [bootstrap](https://getbootstrap.com/)
+- custom css and js  
+    <sup>js file is empty</sup>  
+    ```
+    static/css/base.css
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    ```
+    ```
+    static/js/my.js
+    <script src="{{ url_for('static', filename='js/my.js') }}"></script>
+    ```
 
 ### requirements.txt
 
