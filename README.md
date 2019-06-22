@@ -3,9 +3,18 @@
 A super basic flask starter kit made based off my work from my [softdev2 final project](https://github.com/tfabiha/ccereal/)  
 <sup>so i can live my best lazy life</sup>
 
-For a list of features, refer to [this](#the-good-)
-
 ## Usage
+
+Get the files somehow (fork, download, clone repo and move files, idk it's up to you) and alter them to your choosing. 
+
+### Important Files
+
+For a full list of features, refer to [this](#the-good-)
+
+- `util/config.py` contains functions for configuring your database  
+    you may choose to change the [directory](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L8) your database is in ( `data/` ) and/or the [db file's name](https://github.com/rachel-ng/flask_starter/blob/master/util/config.py#L9) ( `data/data.db` )
+- `util/db.py` contains functions for account creation and authentication
+
 
 ### requirements.txt
 
@@ -112,7 +121,7 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 - sqlite3  
 `sqlite3` is used for databases. A standard Python library with no further action required. 
 
-- random
+- random  
 `random` is used to generate random numbers / letters / symbols. A standard Python library with no further action required. 
 
 - urllib  
@@ -121,7 +130,7 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 - json  
 `json` is used to parse JSON files requested from APIs. A standard Python library with no further action required. 
 
-- flask
+- flask  
 `flask` allows the app to be run on `localhost`, needs `wheel`. Installed with [requirements.txt](requirements.txt) 
 
     ```
@@ -135,7 +144,7 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
     (venv) $ pip3 install wheel
     ```
 
-- Jinja2
+- Jinja2  
 `Jinja2` is used for templating HTML pages. Installed with [requirements.txt](requirements.txt), installed when you install `flask`
 
 - passlib  
@@ -166,9 +175,11 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
     <sup>js file is empty</sup>  
     ```
     static/css/base.css
+    
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     ```
     ```
     static/js/my.js
+    
     <script src="{{ url_for('static', filename='js/my.js') }}"></script>
     ```
