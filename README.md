@@ -1,7 +1,7 @@
 # flask_starter
 
 a super basic flask starter kit made based off work from my [softdev2 final project (catatonic cereal)](https://github.com/tfabiha/ccereal/) and the readme.md from my [softdev1 final project (ambrosia)](https://github.com/rachel-ng/group-d-etat)  
-<sup>so i can live my best life</sup>
+<sub>so i can live my best life</sub>
 
 
 ## Features (aka The Good $#!+™)
