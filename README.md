@@ -4,7 +4,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 <sub>so i can live my best life</sub>
 
 
-## Features (aka The Good $#!+™)
+## Features (aka *The Good $#!+™*)
 
 - python3
 - [flask](http://flask.pocoo.org/)
@@ -76,3 +76,4 @@ if you are The Big Lazy™ (like me!)
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
