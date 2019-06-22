@@ -2,7 +2,7 @@
 
 A description here (or something, idk)
 
-## How to Run
+## Launch Code
 
 0. Clone this repo into your folder of choice 
 
