@@ -1,4 +1,4 @@
-# flask_starter
+# dionysus
 
 a super basic flask starter kit made based off work from my [softdev2 final project (catatonic cereal)](https://github.com/tfabiha/ccereal/) and the readme.md from my [softdev1 final project (ambrosia)](https://github.com/rachel-ng/group-d-etat)  
 <sub>so i can live my best life</sub>
@@ -6,7 +6,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 
 ## Features (aka *The Good $#!+™*)
 
-- python3
+- python3, html, css, etc. 
 - [flask](http://flask.pocoo.org/)
     - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
       e.g. `flash("Error: Invalid Location", category="location")`  
@@ -14,7 +14,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 - [jinja2](http://jinja.pocoo.org/) (for templating)
 - [sqlite](https://docs.python.org/3.4/library/sqlite3.html) (DBs, for python functions see [config.py](util/config.py) and [db.py](util/db.py))  
     [config.py](util/config.py) uses `os` for absolute paths  
-    <sup>so it doesn't go to absolute hell when you try to make it compatible with apache or something smh 😒</sup>  
+    <sup>so it doesn't go to *absolute hell* when you try to make it compatible with apache or something</sup>  
     `config.create_table()` has an optional parameter for the table name, defaults to `user`
 - accounts
     - stored in [data.db](data/data.db)
@@ -23,7 +23,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
     - password hashing (via `passlib`, uses `sha256_crypt`)
 - [bootstrap](https://getbootstrap.com/)
 - custom css and js  
-    <sup>js file is empty</sup>  
+    <sup>js file is empty btw</sup>  
     ```
     static/css/base.css
     
@@ -50,6 +50,7 @@ For a full list of features, refer to [the above](#the-good-)
 - `util/db.py` contains functions for account creation and authentication
 - `templates/base.html` the og jinja base html
 
+
 ### requirements.txt
 
 if you forget a lot (like me!)
@@ -70,10 +71,10 @@ if you forget a lot (like me!)
     (venv) $ pip install -r requirements.txt
     ```
 
+
 ### README.md
 
 if you are The Big Lazy™ (like me!)
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
