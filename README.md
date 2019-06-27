@@ -9,6 +9,8 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 For a list of in progress(ish) features, [refer to this](#to-do)
 
 - python3, html, css, etc. 
+- [semi decent readme](#sample.md) to base stuff off of  
+    <sup>if you need to do the whole *documentation thing*</sup>
 - [.gitignore](.gitignore) (it's also a [gist](https://gist.github.com/rachel-ng/7e26de56cb4a6370164213bd33c31f54))
 - [flask](http://flask.pocoo.org/)
     - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
@@ -24,7 +26,9 @@ For a list of in progress(ish) features, [refer to this](#to-do)
     - [db.py](util/db.py): functions for account creation and authentication
     - login, signup, logout (via sessions, POST)
     - password hashing (via `passlib`, uses `sha256_crypt`)
-- [bootstrap](https://getbootstrap.com/)
+- [bootstrap](https://getbootstrap.com/)  
+    <sup>just copy and paste a bunch of stuff and change as needed so your site doesn't look like *$#!+*</sup>  
+    <sup>use custom css and stuff to make it look pretty / the way you want it to</sup>
 - custom css and js  
     <sup>js file is empty btw</sup>  
     ```
@@ -91,3 +95,4 @@ For a full list of features, refer to [the above](#the-good-)
     <sup>*like an actual launch pad instead of just a $#!++¥ one*</sup>
 - [ ] more SQL work, so it's actually usable (refer to commentary from above)
 - [ ] stalk other peoples' final projects for cool stuff ig (barely remember them though ngl)
+- [ ] maybe the apache thing ::skull::
