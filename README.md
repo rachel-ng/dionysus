@@ -6,7 +6,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 
 ## Features (aka *The Good $#!+™*)
 
-For a list of in progress(ish) features, [refer to this](#to-do)
+For a list of in progress<sup>*(ish)*</sup> features, [refer to this](#to-do)
 
 - python3, html, css, etc. 
 - [semi decent readme](#sample.md) to base stuff off of  
@@ -95,4 +95,4 @@ For a full list of features, refer to [the above](#the-good-)
     <sup>*like an actual launch pad instead of just a $#!++¥ one*</sup>
 - [ ] more SQL work, so it's actually usable (refer to commentary from above)
 - [ ] stalk other peoples' final projects for cool stuff ig (barely remember them though ngl)
-- [ ] maybe the apache thing ::skull::
+- [ ] maybe the apache thing :skull:
