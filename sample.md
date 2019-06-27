@@ -30,7 +30,7 @@ A description here (or something, idk)
 <sup>It includes Flask, Wheel, *the stuff we use to keep your password safe*, and all that other good stuff!!</sup>
 
     ```
-    (venv) $ pip install -r requirements.txt
+    (venv) $ pip3 install -r requirements.txt
     ```
 
 4. Now you can run the python file (starting the Flask server)
@@ -113,5 +113,5 @@ Install the dependencies with [requirements.txt](requirements.txt) by running th
 `passlib` is used to hash your password. Installed with [requirements.txt](requirements.txt) 
 
     ```
-    (venv) $ pip install passlib
+    (venv) $ pip3 install passlib
     ```
