@@ -6,9 +6,11 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 
 ## Features (aka *The Good $#!+™*)
 
+For a list of in progress(ish) features, [refer to this](#to-do)
+
 - python3, html, css, etc. 
 - [.gitignore](.gitignore) (it's also a [gist](https://gist.github.com/rachel-ng/7e26de56cb4a6370164213bd33c31f54))
-- [flask](http://flask.pocoo.org/)!)
+- [flask](http://flask.pocoo.org/)
     - [flash](http://flask.pocoo.org/docs/1.0/patterns/flashing/) `categories`  
       e.g. `flash("Error: Invalid Location", category="location")`  
       <sub>Refer to [lines 62-86](https://github.com/rachel-ng/dionysus/blob/master/templates/base.html#L62-L86) of [base.html](templates/base.html) for more details on implementation</sub>
@@ -75,3 +77,17 @@ For a full list of features, refer to [the above](#the-good-)
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+## To Do
+
+- [ ] the ***baby cs bro*** guide  
+    <sup>*(for anj! i wuv u anj)*</sup>
+- [ ] more detailed instructions on how to use stuff  
+    <sup>*for baby cs bros*</sup>
+- [ ] more linked resources  
+    <sup>*for baby cs bros*</sup>
+- [ ] more templating work so it's less ugly and easier to get started with  
+    <sup>*like an actual launch pad instead of just a $#!++¥ one*</sup>
+- [ ] more SQL work, so it's actually usable (refer to commentary from above)
+- [ ] stalk other peoples' final projects for cool stuff ig (barely remember them though ngl)
