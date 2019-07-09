@@ -80,18 +80,3 @@ For a full list of features, refer to [the above](#the-good-)
 
 - [Github's guide](https://guides.github.com/features/mastering-markdown/) to Github flavored markdown
 - [adam-p](https://github.com/adam-p)'s [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-
-## To Do
-
-- [ ] the ***baby cs bro*** guide  
-    <sup>*(for anj! i wuv u anj)*</sup>
-- [ ] more detailed instructions on how to use stuff  
-    <sup>*for baby cs bros*</sup>
-- [ ] more linked resources  
-    <sup>*for baby cs bros*</sup>
-- [ ] more templating work so it's less ugly and easier to get started with  
-    <sup>*like an actual launch pad instead of just a $#!++¥ one*</sup>
-- [ ] more SQL work, so it's actually usable (refer to commentary from above)
-- [ ] stalk other peoples' final projects for cool stuff ig (barely remember them though ngl)
-- [ ] maybe the apache thing :skull:
