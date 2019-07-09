@@ -23,17 +23,17 @@ def add_user(username, password):
 # rEwRiTe THiS adsfkhjkadsfhkadhskl 
 def auth_user(username, password):
     db, c = config.start_db()
-    data = c.execute("SELECT * FROM users;")
-    #command = "SELECT password FROM users WHERE username = ?;"
-    #c.execute(command,(username,))
-    #pw = c.fetchone()[0]
-    #if pw == sha256_crypt.verify(password, row[1]): 
-    #   config.end_db(db)
-    #   return True
-    for row in data:
-        if row[0] == username and sha256_crypt.verify(password, row[1]):
-            config.end_db(db)
-            return True
+    #data = c.execute("SELECT * FROM users;")
+    command = "SELECT password FROM users WHERE username = ?;"
+    c.execute(command,(username,))
+    pw = c.fetchone()[0]
+    if sha256_crypt.verify(password, pw): 
+       config.end_db(db)
+       return True
+    #for row in data:
+    #    if row[0] == username and sha256_crypt.verify(password, row[1]):
+    #        config.end_db(db)
+    #        return True
     config.end_db(db)
     return False
 
