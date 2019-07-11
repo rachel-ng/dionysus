@@ -27,8 +27,7 @@ also comes with recommendations for some of my school work (stuy softdev + ai ma
     - login, signup, logout (via sessions, POST)
     - password hashing (via `passlib`, uses `sha256_crypt`)
 - [bootstrap](https://getbootstrap.com/)  
-    <sup>just copy and paste a bunch of stuff and change as needed so your site doesn't look like *$#!+*</sup>  
-    <sup>use custom css and stuff to make it look pretty / the way you want it to</sup>
+    <sup>psst... you just copy and paste a bunch of stuff and change the html as needed, and use custom css and stuff to make it look pretty / the way you want it to</sup>
 - custom css and js  
     <sup>js file is empty btw</sup>  
     ```
