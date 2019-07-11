@@ -89,7 +89,7 @@ For a full list of features, refer to [the above](#the-good-)
 Some helpful resources in vaguely chronological order.  
 <sup>projects, then useful repos / folders / links</sup>
 
-- [softdev1 Bourbon Chocolate-Blog](https://github.com/dkeriazisStuy/Bourbon-Chocolate_Blog) (ft. daniel keriazis' frankly kinda godly work)
+- [softdev1 Bourbon Chocolate-Blog](https://github.com/dkeriazisStuy/Bourbon-Chocolate_Blog)
 - [softdev1 daily updates thingy](https://github.com/ryan-aday/RanQuoR-Turkey--adayR-mohriC-ngR-zhouQ) (ft. flash categories, some weird GET stuff, *just vaguely useful*)
 - [the best readme](https://github.com/rachel-ng/group-d-etat) (softdev1 final project ([ambrosia](https://github.com/rachel-ng/group-d-etat)))
 - [softdev2 final project (catatonic cereal)](https://github.com/tfabiha/ccereal/)
