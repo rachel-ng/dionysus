@@ -4,7 +4,7 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 <sub>so i can live my best life</sub>
 
 
-## Features (aka *The Good $#!+™*)
+## Features (aka *The Good Stuff<!-- $#!+-->™*)
 
 For a list of in progress<sup>*(ish)*</sup> features, [refer to this](#to-do)
 
