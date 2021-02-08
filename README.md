@@ -58,6 +58,8 @@ For a full list of features, refer to [the above](#the-good-)
 
 ### requirements.txt
 
+<sup>THESE ARE INSTRUCTIONS FOR IF YOU'RE MAKING ONE</sup>
+
 0. PRE-REQ: You need to be in your virtual environment (venv).  
 <sup>Follow the [instructions here](sample.md#dependencies) if you don't have a virtual environment</sup>
 
