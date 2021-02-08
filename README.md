@@ -2,7 +2,10 @@
 
 a super basic flask starter kit made based off work from my [softdev2 final project (catatonic cereal)](https://github.com/tfabiha/ccereal/) and the [readme](https://github.com/rachel-ng/group-d-etat) from my [softdev1 final project (ambrosia)](https://github.com/rachel-ng/group-d-etat)  
 
-## Features (aka *The Good Stuff<!-- $#!+-->™*)
+I finally updated it again after abandoning it for approximately 2 years and idk how much more I'll be doing  
+but it's unlikely anyone but me is reading this 🤪
+
+## Features 
 
 <!-- For a list of in progress<sup>*(ish)*</sup> features, [refer to this](#to-do) -->
 
