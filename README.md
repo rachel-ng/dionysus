@@ -5,6 +5,11 @@ a super basic flask starter kit made based off work from my [softdev2 final proj
 I finally updated it again after abandoning it for approximately 2 years and idk how much more I'll be doing  
 but it's unlikely anyone but me is reading this 🤪
 
+to do 
+- [ ] sqlalchemy (the way this has lowkey been on my to do list for 2 years,,,)
+- [ ] verify custom css and js, see if there's a more conventional way to do it because i know you probably didn't do it right or it's changed
+- [ ] update dependencies 
+
 ## Features 
 
 <!-- For a list of in progress<sup>*(ish)*</sup> features, [refer to this](#to-do) -->
