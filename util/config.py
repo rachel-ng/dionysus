@@ -19,6 +19,6 @@ def end_db(db):
 
 def create_table():
     db, c = start_db()
-    command = "CREATE TABLE IF NOT EXISTS users (username TEXT, password TEXT)"
+    command = "CREATE TABLE IF NOT EXISTS users (username TEXT PRIMARY KEY, password TEXT)"
     c.execute(command)
     end_db(db)
